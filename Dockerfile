@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 MAINTAINER harish
 
 #add the application jar to the image
-COPY target/user-module-0.0.1-SNAPSHOT.jar user-module-0.0.1-SNAPSHOT.jar 
+COPY target/eureka-server-0.0.1-SNAPSHOT.jar eureka-server-0.0.1-SNAPSHOT
 
 #execute the application
-ENTRYPOINT ["java","-jar","user-module-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","eureka-server-0.0.1-SNAPSHOT"]
