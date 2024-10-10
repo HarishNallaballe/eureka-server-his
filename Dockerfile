@@ -1,5 +1,5 @@
 #start with a base image
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-jdk-alpine
 
 #who maintains the image
 MAINTAINER harish
